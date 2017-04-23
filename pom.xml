@@ -495,4 +495,11 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionmanagement>
+        <repository>
+            <id> release</id>
+            <name>Release </name>
+            <url>http://localhost:8081/nexus/content/repositories/release/</url>
+         </repository>    
+    </distributionmanagement>
 </project>
